@@ -25,7 +25,7 @@
             <label for="dailyEarnings">Today's Earnings (₹):</label>
             <input type="number" id="dailyEarnings" placeholder="Enter today's earnings" />
         </div>
-        <button onclick="updateTracker()">Update Tracker</button>
+        <button onclick="addEarnings()">Add Earnings</button>
         <div class="results">
             <h2>Results</h2>
             <p id="totalEarned">Total Earned: ₹0</p>
@@ -33,6 +33,10 @@
             <p id="remainingDays">Remaining Days: 0 days</p>
             <p id="remainingMonthlyTarget">Remaining Monthly Target: ₹0</p>
             <p id="remainingMonthlyDays">Remaining Monthly Days: 0 days</p>
+        </div>
+        <div class="earnings-list">
+            <h2>Previous Earnings</h2>
+            <ul id="earningsList"></ul>
         </div>
     </div>
     <script src="script.js"></script>
