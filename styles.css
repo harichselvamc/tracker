@@ -76,29 +76,43 @@ button:hover {
     text-align: center;
 }
 
-/* Responsive Design */
-@media (max-width: 480px) {
-    h1 {
-        font-size: 22px;
-    }
+.earnings-list {
+    margin-top: 20px;
+}
 
-    .input-group label {
-        font-size: 14px;
-    }
+.earnings-list h2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
 
-    .input-group input {
-        font-size: 14px;
-    }
+.earnings-list ul {
+    list-style: none;
+    padding: 0;
+}
 
-    button {
-        font-size: 16px;
-    }
+.earnings-list li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-    .results h2 {
-        font-size: 18px;
-    }
+.earnings-list button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-left: 10px;
+}
 
-    .results p {
-        font-size: 16px;
-    }
+.earnings-list button.edit {
+    background-color: #007bff;
 }
